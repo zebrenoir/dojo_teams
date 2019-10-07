@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "kashima_demo.otf";
+    src: url(kashima_demo.otf);
+}
+
+body {
+    background-color: #212121;
+    color: #FAFAFA;
+}
+
+.red-dot {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #c90c0c;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'kashima_demo.otf', sans-serif;
+    text-align: center;
+    font-size: 6rem;
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: 'kashima_demo.otf', sans-serif;
+    font-size: 4rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+ul {
+    color: #34495e;
+    text-align: center;
+    margin: 50px 20px;
+}
+
+ul li {
+
+    font-size: 1.2rem;
+}
+
+form {
+    text-align: center;
+}
+
+.first {
+    padding: 50px 100px;
+    background-color: #FAFAFA;
+    margin-top: 50px;
+}
+
+.first:hover {
+    padding: 50px 100px;
+    background-color: #BDBDBD;
+    color: #444444;
+}
+
+.second {
+    margin: 50px;
+    padding: 30px 50px;
+    background-color: #c90c0c;
+
+}
+
+.second:hover {
+    background-color: #FAFAFA;
+}
